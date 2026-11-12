@@ -574,7 +574,7 @@ with r2_c2:
         color='COUNTY' if loc_choice == "By County" else ('CITY' if loc_choice == "By City" else 'STATE'),
         zoom=9.1,
         center=dict(lat=42.3601, lon=-71.0589),
-        mapbox_style='open-street-map'
+        map_style='open-street-map'
     )
     fig_map.update_layout(
         height=280,
